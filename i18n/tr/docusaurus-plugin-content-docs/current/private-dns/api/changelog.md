@@ -14,6 +14,8 @@ Bu makale [AdGuard DNS API](private-dns/api/overview.md) için değişiklik gün
 
 ## v1.6
 
+_Released on January 22, 2024_
+
 - DNS profilleri için yeni "Erişim ayarları" bölümü eklendi (`access_settings`). Bu alanları özelleştirerek AdGuard DNS sunucunuzu yetkisiz erişime karşı koruyabilirsiniz:
 
   - `allowed_clients` — burada hangi istemcilerin DNS sunucunuzu kullanabileceğini belirtebilirsiniz. Bu alan `blocked_clients` alanına göre önceliğe sahip olur
@@ -33,6 +35,8 @@ Bu makale [AdGuard DNS API](private-dns/api/overview.md) için değişiklik gün
   - Özel kullanıcı kuralları ayarlarındaki `rules` için
 
 ## v1.5
+
+_Released on June 16, 2023_
 
 - Yeni `block_nrd` ayarı eklendi ve güvenlikle ilgili tüm ayarlar tek bir yerde toplandı.
 
@@ -88,23 +92,33 @@ burada, değeri `block_dangerous_domains` içinde depolanan ve kullanımdan kald
 
 ## v1.4
 
+_Released on March 29, 2023_
+
 - Yanıtın engellenmesi için yapılandırılabilir seçenek eklendi: varsayılan (0.0.0.0), REFUSED, NXDOMAIN veya özel IP adresi.
 
 ## v1.3
+
+_Released on December 13, 2022_
 
 - Hesap limitlerini almak için yöntem eklendi.
 
 ## v1.2
 
+_Released on October 14, 2022_
+
 - Yeni protokol türleri DNS ve DNSCrypt eklendi. Daha sonra çıkarılacak olan PLAIN_TCP, PLAIN_UDP, DNSCRYPT_TCP ve DNSCRYPT_UDP kaldırılacaktır.
 
 ## v1.1
+
+_Released on July 07, 2022_
 
 - İstatistikleri zamana, alan adlarına, şirketlere ve cihazlara göre almak için yöntemler eklendi.
 - Cihaz ayarlarını güncellemek için yöntem eklendi.
 - Gerekli alanların tanımı düzeltildi.
 
 ## v1.0
+
+_Released on February 22, 2022_
 
 - Kimlik doğrulama eklendi.
 - Cihazlar ve DNS sunucularıyla CRUD işlemleri.
